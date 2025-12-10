@@ -23,9 +23,9 @@ void bubble_sort(int *array, size_t size)
 				aux = array[i];
 				array[i] = array[i + 1];
 				array[i + 1] = aux;
-				swp = 1;
 
 				print_array(array, size);
+				swp = 1;
 			}
 		}
 	}
