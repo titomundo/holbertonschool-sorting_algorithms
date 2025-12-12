@@ -13,7 +13,7 @@ void insertion_sort_list(listint_t **list)
 	if (!list)
 		return;
 
-	dum = malloc(sizeof(listint_t))
+	dum = malloc(sizeof(listint_t));
 	if (!dum)
 		return;
 	dum->next = *list;
